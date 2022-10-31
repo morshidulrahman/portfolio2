@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-
+import MotionWrap from '../wrapper/Motionwrap';
 import images1 from "../../assets/about01.png"
 import images2 from "../../assets/about02.png"
 import images3 from "../../assets/about03.png"
@@ -41,4 +41,4 @@ const About = () => {
   );
 };
 
-export default AppWrap(About, "about")
+export default AppWrap(MotionWrap(About, "app__about"), "about", "app__whitebg")
