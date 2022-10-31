@@ -7,3 +7,4 @@ const AllDatas = [
     { type: "React JS", description: "i am good react developer", url: images1, projectLink: "http://facebok.com" },
     { type: "all", description: "i am good developer", url: images1, projectLink: "http://facebok.com" },
 ]
+
