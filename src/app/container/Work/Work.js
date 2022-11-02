@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import AppWrap from '../wrapper/AppWrap'
+import MotionWrap from '../wrapper/Motionwrap'
 import './Work.scss';
 import images1 from "../../assets/about01.png"
 import { motion } from 'framer-motion';
@@ -112,4 +113,4 @@ const Work = () => {
     )
 }
 
-export default AppWrap(Work, "work")
+export default AppWrap(MotionWrap(Work, "app__work"), "work", "work")

@@ -4,6 +4,10 @@
     background-position: center;
     background-size: cover; 
 }
+.app__work{
+  display: flex;
+  flex-direction: column;
+}
 .app__work-filter{
     display: flex;
     margin:4rem 0 2rem;
