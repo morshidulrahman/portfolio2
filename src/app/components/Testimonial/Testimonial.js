@@ -10,22 +10,22 @@ import { Pagination } from "swiper";
 
 const testimonials = [
     {
-        image: "/assets/css.png",
-        name: "john doe",
-        subtitle: "product manger",
-        description: "lorem Ipsum heloo description description  description description description description description description description description description description description description description description description description"
+        image: "/assets/khalid.jpeg",
+        name: "khalid Saifullah ",
+        subtitle: "Founder of WorksLee & KS Devware ",
+        description: "l enjoy working with them and learn so much.you guys make the process fun and intersing and good luck !👍"
     },
     {
-        image: "/assets/css.png",
+        image: "/assets/man1.jpg",
         name: "john doe",
         subtitle: "product manger",
-        description: "lorem Ipsum heloo description description  description description description description descri "
+        description: "l enjoy working with them and learn so much.you guys make the process fun and intersing and good luck !👍"
     },
     {
-        image: "/assets/css.png",
-        name: "john doe",
+        image: "/assets/man2.jpg",
+        name: "Michel hency",
         subtitle: "product manger",
-        description: "lorem Ipsum heloo description description  description description description description description description description description description description description description description description description description"
+        description: "l enjoy working with them and learn so much.you guys make the process fun and intersing and good luck !👍"
     }
 ]
 const Testimonial = () => {

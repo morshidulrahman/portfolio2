@@ -1,21 +1,11 @@
-
 import { motion } from 'framer-motion';
+import { ABOUT } from '../../Data';
 import AppWrap from '../wrapper/AppWrap'
 import MotionWrap from '../wrapper/Motionwrap';
 
 import './About.scss';
 
-
-const ABOUT = [
-  { title: "web development", description: "i am backend developer with a passion for building beatiful and functional web application", url: "/assets/about01.png" },
-  { title: "web development", description: "i am backend developer with a passion for building beatiful and functional web application", url: "/assets/about02.png" },
-  { title: "web development", description: "i am backend developer with a passion for building beatiful and functional web application", url: "/assets/about03.png" },
-  { title: "web development", description: "i am backend developer with a passion for building beatiful and functional web application", url: "/assets/about04.png" },
-
-]
 const About = () => {
-
-
   return (
     <>
       <h2 className="head-text about-text">I Know that <span>Good Design</span> <br />means  <span>Good Business</span></h2>

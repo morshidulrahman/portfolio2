@@ -5,31 +5,7 @@ import AppWrap from '../wrapper/AppWrap'
 import MotionWrap from '../wrapper/Motionwrap';
 import "./Skills.scss"
 import ReactTooltip from 'react-tooltip';
-const SkillsData = [
-    { image: '/assets/figma.png', description: "Flutter", }, { image: '/assets/figma.png', description: "Flutter", }, { image: '/assets/figma.png', description: "Flutter", }, { image: '/assets/figma.png', description: "Flutter", }, { image: '/assets/figma.png', description: "Flutter", }, { image: '/assets/figma.png', description: "Flutter", }
-]
-const Experiant = [
-    {
-        year: 2014,
-        title: "i am frontend developer",
-        company: "ks devware"
-    },
-    {
-        year: 2014,
-        title: "i am frontend developer",
-        company: "ks devware"
-    },
-    {
-        year: 2014,
-        title: "i am frontend developer",
-        company: "ks devware"
-    },
-    {
-        year: 2014,
-        title: "i am frontend developer",
-        company: "ks devware"
-    }
-]
+import { SkillsData, Experiant } from '../../Data';
 const Skills = () => {
     return (
         <>

@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <nav className='app__navbar'>
             <div className='app__navbar-logo'>
-                <img src='"/assets/logo.png"' alt="dd" />
+                <h1>Morshidul</h1>
             </div>
             <ul className='app__navbar-links'>
                 {
@@ -22,6 +22,7 @@ const Navbar = () => {
                         </li>
                     ))}
             </ul>
+
 
             <div className="app__navbar-menu">
                 <HiMenuAlt4 onClick={() => setToggle(true)} />

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import AppWrap from '../wrapper/AppWrap'
-import { circle, profile, HeroImage } from '../../Data';
+import { HeroImage } from '../../Data';
 import './Header.scss';
 
 const scaleVariants = {

@@ -16,17 +16,13 @@
 }
 
 .app__navbar-logo {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-
-  img {
-    width: 90px;
-    height: 20px;
-
+ 
+   h1 {
+       font-size: 2rem;
+       font-weight: 700;
     @media screen and (min-width: 2000px) {
-      width: 180px;
-      height: 40px;
+      font-size: 3rem;
+      font-weight: 900;
     }
   }
 }
