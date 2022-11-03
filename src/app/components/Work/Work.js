@@ -1,21 +1,13 @@
 import React from 'react'
 import { useState } from 'react';
 import AppWrap from '../wrapper/AppWrap'
-import MotionWrap from '../wrapper/Motionwrap'
+import MotionWrap from '../wrapper/Motionwrap';
 import './Work.scss';
-import images1 from "../../assets/about01.png"
 import { motion } from 'framer-motion';
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 import { useEffect } from 'react';
-
-const Data = ['UI/UX', 'Web App', 'Mobile App', 'React JS', 'All']
-
-const AllDatas = [
-    { type: "Mobile App", description: "i am good developer", url: images1, projectLink: "http://facebok.com" },
-    { type: "Web App", description: "i am good developer", url: images1, projectLink: "http://facebok.com" },
-    { type: "React JS", description: "i am good react developer", url: images1, projectLink: "http://facebok.com" },
-    { type: "UI/UX", description: "i am good developer", url: images1, projectLink: "http://facebok.com" },
-]
+import { WORKSDATA } from '../../Data';
+import { Data } from '../../Data';
 
 const Work = () => {
     const [works, setWorks] = useState([]);
@@ -24,8 +16,8 @@ const Work = () => {
     const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
 
     useEffect(() => {
-        setWorks(AllDatas);
-        setFilterWork(AllDatas);
+        setWorks(WORKSDATA);
+        setFilterWork(WORKSDATA);
     }, [])
 
     const handleWorkFilter = (item) => {
@@ -37,7 +29,7 @@ const Work = () => {
             if (item === 'All') {
                 setFilterWork(works);
             } else {
-                setFilterWork(works.filter((work) => work.type == item));
+                setFilterWork(works.filter((work) => work.type === item));
             }
         }, 500);
     };
@@ -85,7 +77,7 @@ const Work = () => {
                                         <AiFillEye />
                                     </motion.div>
                                 </a>
-                                <a href={work.codeLink} target="_blank" rel="noreferrer">
+                                <a href={work.gitlink} target="_blank" rel="noreferrer">
                                     <motion.div
                                         whileInView={{ scale: [0, 1] }}
                                         whileHover={{ scale: [1, 0.90] }}

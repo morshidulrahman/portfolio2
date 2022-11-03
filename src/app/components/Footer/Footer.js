@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import AppWrap from '../wrapper/AppWrap'
 import MotionWrap from '../wrapper/Motionwrap';
-import email from "../../assets/email.png"
-import mobile from "../../assets/mobile.png"
+
 import './Footer.scss'
 const Footer = () => {
     const [isFormSubmitted, setFormSubmitted] = useState(false)
@@ -17,11 +16,11 @@ const Footer = () => {
 
             <div className="app__footer-cards">
                 <div className="app__footer-card ">
-                    <img src={email} alt="email" />
+                    <img src='/assets/email.png' alt="email" />
                     <a href="boydanger416@gamil.com" className="p-text">boydanger416@gamil</a>
                 </div>
                 <div className="app__footer-card">
-                    <img src={mobile} alt="phone" />
+                    <img src='/assets/mobile.png' alt="phone" />
                     <a href="tel:+8801772368192" className="p-text">+88 01772368192</a>
                 </div>
             </div>

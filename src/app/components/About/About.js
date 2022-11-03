@@ -1,18 +1,16 @@
-import React, { useState, useEffect } from 'react';
+
 import { motion } from 'framer-motion';
+import AppWrap from '../wrapper/AppWrap'
 import MotionWrap from '../wrapper/Motionwrap';
-import images1 from "../../assets/about01.png"
-import images2 from "../../assets/about02.png"
-import images3 from "../../assets/about03.png"
-import images4 from "../../assets/about04.png"
+
 import './About.scss';
-import AppWrap from '../wrapper/AppWrap';
+
 
 const ABOUT = [
-  { title: "web development", description: "i am backend developer with a passion for building beatiful and functional web application", url: images1 },
-  { title: "web development", description: "i am backend developer with a passion for building beatiful and functional web application", url: images2 },
-  { title: "web development", description: "i am backend developer with a passion for building beatiful and functional web application", url: images3 },
-  { title: "web development", description: "i am backend developer with a passion for building beatiful and functional web application", url: images4 },
+  { title: "web development", description: "i am backend developer with a passion for building beatiful and functional web application", url: "/assets/about01.png" },
+  { title: "web development", description: "i am backend developer with a passion for building beatiful and functional web application", url: "/assets/about02.png" },
+  { title: "web development", description: "i am backend developer with a passion for building beatiful and functional web application", url: "/assets/about03.png" },
+  { title: "web development", description: "i am backend developer with a passion for building beatiful and functional web application", url: "/assets/about04.png" },
 
 ]
 const About = () => {

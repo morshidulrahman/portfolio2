@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
-import logo from "../../assets/logo.png"
+
 import './Navbar.scss';
 
 const NAVBAR = [
@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <nav className='app__navbar'>
             <div className='app__navbar-logo'>
-                <img src={logo} alt="dd" />
+                <img src='"/assets/logo.png"' alt="dd" />
             </div>
             <ul className='app__navbar-links'>
                 {

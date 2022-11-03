@@ -1,12 +1,12 @@
 import React from 'react'
-import skilss from "../../assets/figma.png"
+
 import { motion } from 'framer-motion';
 import AppWrap from '../wrapper/AppWrap'
 import MotionWrap from '../wrapper/Motionwrap';
 import "./Skills.scss"
 import ReactTooltip from 'react-tooltip';
 const SkillsData = [
-    { image: skilss, description: "Flutter", }, { image: skilss, description: "Flutter", }, { image: skilss, description: "Flutter", }, { image: skilss, description: "Flutter", }, { image: skilss, description: "Flutter", }, { image: skilss, description: "Flutter", }
+    { image: '/assets/figma.png', description: "Flutter", }, { image: '/assets/figma.png', description: "Flutter", }, { image: '/assets/figma.png', description: "Flutter", }, { image: '/assets/figma.png', description: "Flutter", }, { image: '/assets/figma.png', description: "Flutter", }, { image: '/assets/figma.png', description: "Flutter", }
 ]
 const Experiant = [
     {

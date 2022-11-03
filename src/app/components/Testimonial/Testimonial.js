@@ -2,7 +2,7 @@ import React from 'react'
 import AppWrap from '../wrapper/AppWrap'
 import MotionWrap from '../wrapper/Motionwrap';
 import "./Testimonial.scss"
-import clientimage from "../../assets/css.png"
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -10,19 +10,19 @@ import { Pagination } from "swiper";
 
 const testimonials = [
     {
-        image: clientimage,
+        image: "/assets/css.png",
         name: "john doe",
         subtitle: "product manger",
         description: "lorem Ipsum heloo description description  description description description description description description description description description description description description description description description description"
     },
     {
-        image: clientimage,
+        image: "/assets/css.png",
         name: "john doe",
         subtitle: "product manger",
         description: "lorem Ipsum heloo description description  description description description description descri "
     },
     {
-        image: clientimage,
+        image: "/assets/css.png",
         name: "john doe",
         subtitle: "product manger",
         description: "lorem Ipsum heloo description description  description description description description description description description description description description description description description description description description"
