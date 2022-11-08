@@ -1,5 +1,5 @@
 
-export const Data = ['All', 'UI/UX', 'Web App', 'Mobile App', 'React JS']
+export const Data = ['All', 'UI/UX', 'Mobile App', 'React JS']
 
 export const WORKSDATA = [
     { type: "React JS", description: "Furniture website clone using react js firebase tailwind", url: "/assets/parabot.jpg", projectLink: "https://enchanting-taffy-306f45.netlify.app/" },
