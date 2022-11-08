@@ -16,14 +16,14 @@ const scaleVariants = {
 };
 
 const Header = () => (
-  <div className="app__header "  >
+  <div className="app__header"  >
     <motion.div
       whileInView={{ x: [-100, 0], opacity: [0, 1] }}
       transition={{ duration: 0.5 }}
       className="app__header-info"
     >
       <div className="app__header-badge">
-        <div className="badge-cmp  ">
+        <div className="badge-cmp">
           <span>👋</span>
           <div>
             <p className="p-text">Hello, I am</p>
@@ -31,7 +31,7 @@ const Header = () => (
           </div>
         </div>
 
-        <div className="tag-cmp ">
+        <div className="tag-cmp">
           <p className="p-text">Web Developer</p>
           <p className="p-text">Freelancer</p>
         </div>
@@ -43,7 +43,8 @@ const Header = () => (
       transition={{ duration: 0.5, delayChildren: 0.5 }}
       className="app__header-img"
     >
-      <img src='/assets/profile.png' alt="profile_bg" />
+      <img src='/assets/profile1.png' alt="profile_bg" />
+
       <motion.img
         whileInView={{ scale: [0, 1] }}
         transition={{ duration: 1, ease: 'easeInOut' }}
@@ -59,7 +60,7 @@ const Header = () => (
       className="app__header-circles"
     >
       {HeroImage.map((circle, index) => (
-        <div div className="circle-cmp app__flex" key={`circle-${index}`}>
+        <div className="circle-cmp app__flex" key={index}>
           <img src={circle.URL} alt="profile_bg" />
         </div>
       ))}

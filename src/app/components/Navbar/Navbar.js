@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <nav className='app__navbar'>
             <div className='app__navbar-logo'>
-                <h1>Morshidul</h1>
+                <a href='#home'>Morshidul</a>
             </div>
             <ul className='app__navbar-links'>
                 {
@@ -31,11 +31,11 @@ const Navbar = () => {
                         whileInView={{ x: [300, 0] }}
                         transition={{ duration: 0.85, ease: 'easeOut' }}
                     >
-                        <HiX onClick={() => setToggle(false)} />
+                        <HiX onClick={() => setToggle(!toggle)} />
                         <ul>
                             {NAVBAR.map((item, index) => (
                                 <li key={index}>
-                                    <a href={`#${item}`} onClick={() => setToggle(false)}>
+                                    <a href={`#${item}`} onClick={() => setToggle(!toggle)}>
                                         {item}
                                     </a>
                                 </li>

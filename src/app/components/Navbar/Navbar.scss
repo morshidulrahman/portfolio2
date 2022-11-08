@@ -17,9 +17,11 @@
 
 .app__navbar-logo {
  
-   h1 {
+   a {
        font-size: 2rem;
-       font-weight: 700;
+       font-weight: 900;
+       color: #313BAC;
+       text-decoration: none;
     @media screen and (min-width: 2000px) {
       font-size: 3rem;
       font-weight: 900;

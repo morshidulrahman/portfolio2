@@ -4,25 +4,25 @@ export const Data = ['All', 'UI/UX', 'Web App', 'Mobile App', 'React JS']
 export const WORKSDATA = [
     { type: "Web App", description: "Furniture website clone using react js firebase tailwind", url: "/assets/parabot.jpg", projectLink: "https://enchanting-taffy-306f45.netlify.app/" },
 
-    { type: "Web App", description: "i am good developer", url: "/assets/unplash.jpg", projectLink: "https://unplashapi.netlify.app/index.html" },
+    { type: "Web App", description: "Unplash website clone using javascript html css", url: "/assets/unplash.jpg", projectLink: "https://unplashapi.netlify.app/index.html" },
 
-    { type: "React JS", description: "i am good react developer", url: "/assets/delivery.jpg", projectLink: "https://comforting-valkyrie-56db76.netlify.app/" },
+    { type: "React JS", description: "Delivery website clone using react tailwind firebase", url: "/assets/delivery.jpg", projectLink: "https://comforting-valkyrie-56db76.netlify.app/" },
 
-    { type: "React JS", description: "i am good react developer", url: "/assets/planet.jpg", projectLink: "https://planet2.netlify.app/", gitlink: "https://github.com/morshidulrahman/planet" },
+    { type: "React JS", description: "Planet website clone using javascript and css", url: "/assets/planet.jpg", projectLink: "https://planet2.netlify.app/", gitlink: "https://github.com/morshidulrahman/planet" },
 
-    { type: "UI/UX", description: "i am good developer", url: "/assets/netlify.jpg", projectLink: "https://lucky-zuccutto-459e25.netlify.app/" },
+    { type: "UI/UX", description: "Little netlify clone using react tailwind rest api", url: "/assets/netlify.jpg", projectLink: "https://lucky-zuccutto-459e25.netlify.app/" },
 
-    { type: "Web App", description: "i am good developer", url: "/assets/bootloader.jpg", projectLink: "https://gracious-meitner-40452e.netlify.app/?fbclid=IwAR0wQqt1exAEtzpdBzV93P4854rBAraYibsc2bwsulVhIIr8-q7JkmTkQiw#" },
+    { type: "Web App", description: "Bootloader website clone using bootstarp", url: "/assets/bootloader.jpg", projectLink: "https://gracious-meitner-40452e.netlify.app/?fbclid=IwAR0wQqt1exAEtzpdBzV93P4854rBAraYibsc2bwsulVhIIr8-q7JkmTkQiw#" },
 
-    { type: "Web App", description: "Portfolio", url: "/assets/portfolio.jpg", projectLink: "https://morshidulrahman.netlify.app/" },
+    { type: "Web App", description: "Portfolio using react and tailwind-css", url: "/assets/portfolio.jpg", projectLink: "https://morshidulrahman.netlify.app/" },
 
-    { type: "Web App", description: "i am good developer", url: "/assets/zepto.jpg", projectLink: "https://helpful-pony-3fd223.netlify.app/" },
+    { type: "Web App", description: "zeptoclone using html css javascript", url: "/assets/zepto.jpg", projectLink: "https://helpful-pony-3fd223.netlify.app/" },
 
-    { type: "Web App", description: "i am good developer", url: "/assets/megakit.jpg", projectLink: "https://morshidulrahman.github.io/megakit-website/", gitlink: "https://github.com/morshidulrahman/megakit-website" },
+    { type: "Web App", description: "Megakit clone using bootstrap ", url: "/assets/megakit.jpg", projectLink: "https://morshidulrahman.github.io/megakit-website/", gitlink: "https://github.com/morshidulrahman/megakit-website" },
 
-    { type: "Mobile App", description: "i am good developer", url: "/assets/phone.jpg", projectLink: "#" },
+    { type: "Mobile App", description: "Delivaro 2.0 using React-native-expo tailwind css firebase google map", url: "/assets/phone.jpg", projectLink: "#" },
 
-    { type: "Mobile App", description: "i am good developer", url: "/assets/musicapp.jpg", projectLink: "https://tranquil-capybara-e5f114.netlify.app/" },
+    { type: "Mobile App", description: "Music app clone using javascript css api ", url: "/assets/musicapp.jpg", projectLink: "https://tranquil-capybara-e5f114.netlify.app/" },
 
 ]
 
