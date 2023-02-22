@@ -5,6 +5,7 @@ import { FaFacebookF } from "react-icons/fa";
 const SocialMedia = () => (
   <div className="app__social">
     <div>
+      {/* socail links */}
       <a
         href="https://www.linkedin.com/in/morshidul-rahman-03b57620a/"
         target="_blank"
