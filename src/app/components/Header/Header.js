@@ -1,8 +1,8 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import AppWrap from '../wrapper/AppWrap'
-import { HeroImage } from '../../Data';
-import './Header.scss';
+import React from "react";
+import { motion } from "framer-motion";
+import AppWrap from "../wrapper/AppWrap";
+import { HeroImage } from "../../Data";
+import "./Header.scss";
 
 const scaleVariants = {
   whileInView: {
@@ -10,13 +10,13 @@ const scaleVariants = {
     opacity: [0, 1],
     transition: {
       duration: 1,
-      ease: 'easeInOut',
+      ease: "easeInOut",
     },
   },
 };
 
 const Header = () => (
-  <div className="app__header"  >
+  <div className="app__header">
     <motion.div
       whileInView={{ x: [-100, 0], opacity: [0, 1] }}
       transition={{ duration: 0.5 }}
@@ -43,11 +43,11 @@ const Header = () => (
       transition={{ duration: 0.5, delayChildren: 0.5 }}
       className="app__header-img"
     >
-      <img src='/assets/profile1.png' alt="profile_bg" />
+      <img src="/assets/profile1.jpg" alt="profile_bg" />
 
       <motion.img
         whileInView={{ scale: [0, 1] }}
-        transition={{ duration: 1, ease: 'easeInOut' }}
+        transition={{ duration: 1, ease: "easeInOut" }}
         src="/assets/circle.svg"
         alt="profile_circle"
         className="overlay_circle"
@@ -64,8 +64,8 @@ const Header = () => (
           <img src={circle.URL} alt="profile_bg" />
         </div>
       ))}
-    </motion.div >
-  </div >
+    </motion.div>
+  </div>
 );
 
-export default AppWrap(Header, "home")
+export default AppWrap(Header, "home");
