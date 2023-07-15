@@ -26,7 +26,7 @@ export const WORKSDATA = [
     type: "React JS",
     description: "a simple eccomerce mern toymart website",
     url: "/assets/rsz_toy-home.jpg",
-    projectLink: "https://github.com/morshidulrahman/toymart-client",
+    projectLink: "https://legendary-naiad-92a7e9.netlify.app/",
   },
   {
     type: "React JS",
